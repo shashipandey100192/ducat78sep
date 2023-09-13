@@ -1,0 +1,69 @@
+react.js
+=============================
+1) install 
+	1) node.js
+	2) git bash
+	3) git account create
+2) question	
+	1) what is node.js ?
+	2) what is NPM(node package manager)?
+	3) what is NPX(Node Package eXecute)?
+	4) what is package ?
+	5) what is node_modules ?
+	6) what is modules ?
+	7) what is react.js ?
+	8) what is package.json ?
+	9) what is package.lock.json ?
+	10) what is flag ?
+	11) what is dependencies ?
+	12) what is port ?
+	13) default port of react ?
+	14) what is http modules ?
+	15) what request and response ?
+	16) interpreter vs compiler ?
+----------------------------------------------------
+3) create react project
+	npx create-react-app ducat78sep
+Note: npm install -g typescript
+4) code .    // open in vscode
+5) npm start   // serve file /  run application /  start application
+6) export and import
+	1) name export / import {}
+	2) default export / import
+7) Note: one default function in a single file
+----------------------------------------------------------
+git
+=====================
+	1) login git account
+	2) git init		//initialized
+	3) create Repositories(repo)
+	Note: project name and repo name must have same 
+	4) git remote add origin   <repo path>		// create connection
+	5) git remote -v	// check connection
+	6) git add --all	// add all data on git 
+	7) git commit -m "message"	 // for comment 
+	8) git push origin <branch name>  // push data on git
+	9) git clone <repo path>
+--------------------------------------
+	1) git add --all
+	2) git commit -m "sdfjh"
+	3) git pull origin master
+	4) npm install  // if add any package
+	
+
+	 
+
+
+	
+
+
+
+
+
+
+
+
+ 
+
+	
+	
