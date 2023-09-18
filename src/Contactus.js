@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 function Contactus() {
   return (
-    <div>Contactus using git access </div>
+    <Fragment>
+    <div className='first'>Contactus using git access </div>
+    <div className='first'>Contactus using git access </div>
+    <div className='first'>Contactus using git access </div>
+    </Fragment>
+
   )
 }
 
