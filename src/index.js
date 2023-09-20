@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.js";
 import "./style.css";
 import Myreactbootstrap from './Myreactbootstrap';
+import Myuimetrial from './Myuimetrial';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,7 +15,9 @@ root.render(
     <Myfunc1/>
     <Myfunc2/>
     <Contactus/>
+    
     <Myreactbootstrap/>
+    <Myuimetrial/>
   </React.StrictMode>
 );
 
