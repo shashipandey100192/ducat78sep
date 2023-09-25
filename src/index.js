@@ -4,20 +4,30 @@ import Myfunc1,{Myfunc2} from './About';
 import Contactus from './Contactus';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.js";
+import {BrowserRouter,Route,Routes} from 'react-router-dom';
 import "./style.css";
-import Myreactbootstrap from './Myreactbootstrap';
-import Myuimetrial from './Myuimetrial';
+import Loginpage from './modules/auth/Loginpage';
+import Registorpage from './modules/auth/Registorpage';
+import Landingpage from './modules/components/Landingpage';
+import Mynavbar from './modules/shares/Mynavbar';
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Myfunc1/>
-    <Myfunc2/>
-    <Contactus/>
+    <BrowserRouter>
+      <Mynavbar/>
+      <Routes>
+        <Route path='/' element={<Loginpage/>}/>
+        <Route path='registor' element={<Registorpage/>}/>
+        <Route path='landing' element={<Landingpage/>}/>
+      </Routes>
     
-    <Myreactbootstrap/>
-    <Myuimetrial/>
+    
+    </BrowserRouter>
+ 
   </React.StrictMode>
 );
 
