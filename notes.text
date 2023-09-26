@@ -49,6 +49,61 @@ git
 	2) git commit -m "sdfjh"
 	3) git pull origin master
 	4) npm install  // if add any package
+--------------------------------------------------
+8) ui component
+	1) html css (custom)
+	2) bootstrap
+	3) react-bootstrap
+	4) ui metrial
+---------------------------------------
+Note: replace to
+	class	 - className
+	href	 - to
+	a	 - Link
+---------------------------------------
+9) bootstrap
+	npm install bootstrap 		// latest version of package
+	npm uninstall bootstrap		// uninstall bootstrap
+	npm install bootstrap@4.0.0	// install particular version 
+10) elements wrap
+	1) html element ( div,section,main,header...)
+	2) <></>  // blank
+	3) Fragment
+---------------------------------------------------
+11) image display
+	1) src (folder)
+	2) public(folder)
+	3) online (cdn)
+Note: you have write  "alt" attr
+Note: ("photo","image","picture") can't write in alt
+12) react bootstrap
+	1) npm install react-bootstrap bootstrap
+	2) import 
+----------------------------------------------------
+13) ui metrial
+	 npm install @mui/material @emotion/react @emotion/styled
+	 npm install @mui/material @mui/styled-engine-sc styled-components
+14) icon 
+	1) npm install react-icons --save
+	2) import 
+----------------------------------------------------
+15) routing
+	1) npm install react-router-dom
+	2) import
+	 	BrowserRouter
+	 	Route
+	 	Routes
+		Link
+----------------------------------------------------
+16) graph/ chart
+	1) npm install recharts
+	2) import 
+
+	
+	
+	
+
+	
 	
 
 	 
