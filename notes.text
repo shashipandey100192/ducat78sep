@@ -98,6 +98,25 @@ Note: ("photo","image","picture") can't write in alt
 16) graph/ chart
 	1) npm install recharts
 	2) import 
+-----------------------------------------------------
+17) api call / network call
+	1) axios
+		1) npm install axios
+		2) import
+	2) fetch()
+18) http/fetch/axios(object)
+	get()
+	post()
+	delete()
+	put()
+	patch()
+		..
+19) status code
+	Informational responses (100 – 199)
+	Successful responses (200 – 299)
+	Redirection messages (300 – 399)
+	Client error responses (400 – 499)
+	Server error responses (500 – 599)
 
 	
 	

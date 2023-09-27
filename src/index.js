@@ -10,6 +10,7 @@ import Loginpage from './modules/auth/Loginpage';
 import Registorpage from './modules/auth/Registorpage';
 import Landingpage from './modules/components/Landingpage';
 import Mynavbar from './modules/shares/Mynavbar';
+import Myaxiospage from './modules/components/Myaxiospage';
 
 
 
@@ -23,6 +24,7 @@ root.render(
         <Route path='/' element={<Loginpage/>}/>
         <Route path='registor' element={<Registorpage/>}/>
         <Route path='landing' element={<Landingpage/>}/>
+        <Route path='myaxios' element={<Myaxiospage/>}/>
       </Routes>
     
     
