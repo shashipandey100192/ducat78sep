@@ -11,6 +11,7 @@ import Registorpage from './modules/auth/Registorpage';
 import Landingpage from './modules/components/Landingpage';
 import Mynavbar from './modules/shares/Mynavbar';
 import Myaxiospage from './modules/components/Myaxiospage';
+import Detailspage from './modules/components/Detailspage';
 
 
 
@@ -25,6 +26,7 @@ root.render(
         <Route path='registor' element={<Registorpage/>}/>
         <Route path='landing' element={<Landingpage/>}/>
         <Route path='myaxios' element={<Myaxiospage/>}/>
+        <Route path='myaxios/details/:id' element={<Detailspage/>}/>
       </Routes>
     
     
