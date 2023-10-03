@@ -1,7 +1,17 @@
-import React from 'react'
+import React from 'react';
+import{useForm} from 'react-hook-form'
 
 function Registorpage() {
+    const { register, handleSubmit, formState: { errors } } = useForm()
+    const mysubmit = (data)=>{
+        console.log(data);
+
+
+    }
+
+
     return (
+        <form onSubmit={handleSubmit(mysubmit)}>
         <div className='container shadow mt-3 p-5 border reg bg-light'>
             <div className='row'>
                 <div className='col-12 text-center'>
@@ -9,28 +19,31 @@ function Registorpage() {
                 </div>
                 <div className='col-md-6 mt-3'>
                     <label class="form-label">UserName</label>
-                    <input type="text" class="form-control" />
+                    <input type="text" class="form-control" {...register("username",{required:true})}/>
+                    {errors.username && <span className='text-danger'>username is required</span>}
                 </div>
                 <div className='col-md-6 mt-3'>
                     <label class="form-label">Email id</label>
-                    <input type="email" class="form-control" />
+                    <input type="email" class="form-control" {...register("email",{required:true})}/>
+                    {errors.email && <span className='text-danger'>email is required</span>}
                 </div>
                 <div className='col-md-6 mt-3'>
                     <label class="form-label">Phone No</label>
-                    <input type="text" class="form-control" />
+                    <input type="text" class="form-control" {...register("phone",{required:true})} pattern='[0-9]{10}'/>
+                    {errors.phone && <span className='text-danger'>phone No is required</span>}
                 </div>
                 <div className='col-md-6 mt-3'>
                     <label class="form-label">Address</label>
-                    <input type="text" class="form-control" />
+                    <input type="text" class="form-control" {...register("address")}/>
                 </div>
                 <div className='col-md-6 mt-3'>
                     <label class="form-label">Gender</label><br/>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio"/>
+                        <input class="form-check-input" type="radio" value="male" {...register("gender")}/>
                         <label class="form-check-label">Male</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio"/>
+                        <input class="form-check-input" type="radio" value="female" {...register("gender")}/>
                         <label class="form-check-label">Female</label>
                         
                     </div>
@@ -42,6 +55,7 @@ function Registorpage() {
                 </div>
             </div>
         </div>
+        </form>
     )
 }
 

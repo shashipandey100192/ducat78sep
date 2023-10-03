@@ -117,6 +117,15 @@ Note: ("photo","image","picture") can't write in alt
 	Redirection messages (300 – 399)
 	Client error responses (400 – 499)
 	Server error responses (500 – 599)
+----------------------------------------------------
+20) param routing
+	useParam()
+---------------------------------------------------
+21) form validation
+	1) react-form-hooks ( labrary)
+		1) npm install react-hook-form
+		2) import
+	2) custom 
 
 	
 	
