@@ -12,6 +12,7 @@ import Landingpage from './modules/components/Landingpage';
 import Mynavbar from './modules/shares/Mynavbar';
 import Myaxiospage from './modules/components/Myaxiospage';
 import Detailspage from './modules/components/Detailspage';
+import Curstomvalidtion from './modules/auth/Curstomvalidtion';
 
 
 
@@ -24,6 +25,7 @@ root.render(
       <Routes>
         <Route path='/' element={<Loginpage/>}/>
         <Route path='registor' element={<Registorpage/>}/>
+        <Route path='mycustomform' element={<Curstomvalidtion/>}/>
         <Route path='landing' element={<Landingpage/>}/>
         <Route path='myaxios' element={<Myaxiospage/>}/>
         <Route path='myaxios/details/:id' element={<Detailspage/>}/>

@@ -1,5 +1,5 @@
 import React,{useEffect,useState} from 'react'
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import axios from 'axios';
 
 function Detailspage() {
@@ -21,7 +21,7 @@ function Detailspage() {
                     <h3>Call auto api when reload this page and get single record</h3>
                 </div>
                 <div className='col-4 text-end'>
-                    <button className='btn btn-dark btn-sm'>Back</button>
+                    <Link className='btn btn-dark btn-sm' to={`/myaxios`}>Back</Link>
                 </div>
             </div>
             <div className='row'>

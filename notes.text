@@ -126,6 +126,15 @@ Note: ("photo","image","picture") can't write in alt
 		1) npm install react-hook-form
 		2) import
 	2) custom 
+---------------------------------------------------
+22) storage
+	1) local
+		setItem()
+		getItem()
+			...
+	2) session
+
+	
 
 	
 	

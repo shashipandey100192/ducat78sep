@@ -10,12 +10,12 @@ function Loginpage() {
                 </div>
                 
                 <div className='col-md-12 mt-3'>
-                    <label class="form-label">Email id</label>
-                    <input type="email" class="form-control" />
+                    <label className="form-label">Email id</label>
+                    <input type="email" className="form-control" />
                 </div>
                 <div className='col-md-12 mt-3'>
-                    <label class="form-label">Password</label>
-                    <input type="password" class="form-control" />
+                    <label className="form-label">Password</label>
+                    <input type="password" className="form-control" />
                 </div>
                 
                 

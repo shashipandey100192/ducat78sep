@@ -44,6 +44,7 @@ function Mynavbar() {
                                     <ul className="dropdown-menu">
                                         <li><Link className="dropdown-item" to="/">Login</Link></li>
                                         <li><Link className="dropdown-item" to="registor">Registor</Link></li>
+                                        <li><Link className="dropdown-item" to="mycustomform">customform</Link></li>
                                         <li><Link className="dropdown-item" to="/">Logout</Link></li>
                                     </ul>
                             </div>

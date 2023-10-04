@@ -23,7 +23,7 @@ function Myaxiospage() {
                     <h5>Total Records: {sing.length}</h5>
                 </div>
                 <div className='col-4 text-end'>
-                    <button className='btn btn-dark btn-sm'>Back</button>
+                    {/* <button className='btn btn-dark btn-sm'>Back</button> */}
                 </div>
             </div>
             <div className='row'>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from "recharts";
+import Mylocaluserdata from './Mylocaluserdata';
 const data = [
   {
     name: "Page A",
@@ -114,6 +115,8 @@ function Landingpage() {
         <div className='col-md-4 bg-light shadow'>
           <section className='border p-2'>
             <h1>graph</h1>
+              <Mylocaluserdata/>
+
           </section>
         </div>
       </div>
