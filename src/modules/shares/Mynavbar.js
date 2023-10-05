@@ -17,6 +17,7 @@ function Mynavbar() {
                                     <li className="nav-item">
                                         <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                                     </li>
+                                    
                                     {/* <li className="nav-item">
                                         <Link className="nav-link" to="registor">registor</Link>
                                     </li> */}
@@ -34,6 +35,9 @@ function Mynavbar() {
                                     </li> */}
                                     <li className="nav-item">
                                         <Link className="nav-link" to="myaxios">axios</Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link className="nav-link" to="myservice">Service</Link>
                                     </li>
                                 </ul>
                                 <form className="d-flex" role="search">

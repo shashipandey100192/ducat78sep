@@ -13,6 +13,11 @@ import Mynavbar from './modules/shares/Mynavbar';
 import Myaxiospage from './modules/components/Myaxiospage';
 import Detailspage from './modules/components/Detailspage';
 import Curstomvalidtion from './modules/auth/Curstomvalidtion';
+import Myservicepage from './modules/servicecomponent/Myservicepage';
+import Mymobile from './modules/servicecomponent/Mymobile';
+import Myleptop from './modules/servicecomponent/Myleptop';
+import Mycomputer from './modules/servicecomponent/Mycomputer';
+import Errorpage from './modules/shares/Errorpage';
 
 
 
@@ -29,6 +34,13 @@ root.render(
         <Route path='landing' element={<Landingpage/>}/>
         <Route path='myaxios' element={<Myaxiospage/>}/>
         <Route path='myaxios/details/:id' element={<Detailspage/>}/>
+        <Route path='myservice' element={<Myservicepage/>}>
+            <Route path='mobile' element={<Mymobile/>}/>
+            <Route path='leptop' element={<Myleptop/>}/>
+            <Route path='computer' element={<Mycomputer/>}/>
+            <Route path='*' element={<Errorpage/>}/>
+        </Route>
+        <Route path='*' element={<Errorpage/>}/>
       </Routes>
     
     
