@@ -18,7 +18,7 @@ function Mylocaluserdata() {
                             </tr>
                         </thead>
                         <tbody>
-                            {mylocaldata.map((p,i=1) => {
+                            {mylocaldata!==null ? mylocaldata.map((p,i=1) => {
                                 return (
                                     <tr key={++i}>
                                         <th scope="row">{++i}</th>
@@ -26,7 +26,7 @@ function Mylocaluserdata() {
                                         <td>{p.email}</td>
                                     </tr>
                                 )
-                            })}
+                            }) : <h3 className='text-danger'>Record Not Found</h3>}
 
                         </tbody>
                     </table>

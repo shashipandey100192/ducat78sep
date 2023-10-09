@@ -31,6 +31,10 @@ const setdata = (e)=>{
         localStorage.setItem("myformdata",JSON.stringify(mydata));
         console.log(mydata);
         // window.location.href="/";
+       sdata({
+        username:"",
+        email:""
+    })
     }
    
   }

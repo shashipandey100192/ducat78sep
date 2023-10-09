@@ -18,6 +18,7 @@ import Mymobile from './modules/servicecomponent/Mymobile';
 import Myleptop from './modules/servicecomponent/Myleptop';
 import Mycomputer from './modules/servicecomponent/Mycomputer';
 import Errorpage from './modules/shares/Errorpage';
+import { Auth0Provider } from '@auth0/auth0-react';
 
 
 
@@ -25,6 +26,12 @@ import Errorpage from './modules/shares/Errorpage';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Auth0Provider 
+    domain="dev-2lztdozl12hbrfpe.us.auth0.com"
+    clientId="3MJibpBvpZfphdgq4lqHaI2klTxjsSq8"
+    authorizationParams={{
+      redirect_uri: window.location.origin
+    }}>
     <BrowserRouter>
       <Mynavbar/>
       <Routes>
@@ -45,7 +52,7 @@ root.render(
     
     
     </BrowserRouter>
- 
+    </Auth0Provider>
   </React.StrictMode>
 );
 

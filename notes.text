@@ -137,6 +137,16 @@ Note: ("photo","image","picture") can't write in alt
 ---------------------------------------------------
 23) route outlet (sub modules)/ nested routing
 24) error page / (404) / font found page
+-------------------------------------------
+25) auth0
+	1) auth0 login
+	2) application create
+	3) config url
+	4) npm install @auth0/auth0-react
+	5) wrap whole application using   Auth0Provider
+	6) import { useAuth0 } from "@auth0/auth0-react"; 
+26) social login (facebook, google )
+	
 	
 	
 
