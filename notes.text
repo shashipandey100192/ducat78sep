@@ -146,6 +146,30 @@ Note: ("photo","image","picture") can't write in alt
 	5) wrap whole application using   Auth0Provider
 	6) import { useAuth0 } from "@auth0/auth0-react"; 
 26) social login (facebook, google )
+------------------------------------------------------
+27) redux/ react-redux, redux-toolkit
+	1) npm install @reduxjs/toolkit react-redux
+	2) create store
+	3) wrap whole application  using Provider
+	4) create reducer / actions
+	
+	
+-----------------------------------
+	1) configureStore
+	2) reducer
+	3) Provider
+	4) store
+	5) createSlice
+	6) useSelector
+	7) useDispatch
+	8) state
+	9) actions
+28) build for production
+	npm run build
+29) hosting
+	
+
+	
 	
 	
 	

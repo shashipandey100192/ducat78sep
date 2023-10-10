@@ -19,6 +19,8 @@ import Myleptop from './modules/servicecomponent/Myleptop';
 import Mycomputer from './modules/servicecomponent/Mycomputer';
 import Errorpage from './modules/shares/Errorpage';
 import { Auth0Provider } from '@auth0/auth0-react';
+import { Provider } from 'react-redux';
+import { Mystore } from './modules/reduxpro/Mystore';
 
 
 
@@ -26,6 +28,7 @@ import { Auth0Provider } from '@auth0/auth0-react';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Provider store={Mystore}>
     <Auth0Provider 
     domain="dev-2lztdozl12hbrfpe.us.auth0.com"
     clientId="3MJibpBvpZfphdgq4lqHaI2klTxjsSq8"
@@ -53,6 +56,7 @@ root.render(
     
     </BrowserRouter>
     </Auth0Provider>
+    </Provider>
   </React.StrictMode>
 );
 
