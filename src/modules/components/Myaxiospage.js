@@ -10,8 +10,21 @@ function Myaxiospage() {
             upd(d.data);
         })
     }
+    const [newd, newupdate] = useState([]);
+    const newapi = () => {
+        // axios.get('https://dummyjson.com/products').then((d) => {
+            axios.get('https://meanapps.onrender.com/getdata').then((d) => {
+            console.log(d.data);
+            newupdate(d.data);
+        })
+    }
+
+
+
+
     useEffect(()=>{
         myapi();
+        newapi();
     },[])
 
 
